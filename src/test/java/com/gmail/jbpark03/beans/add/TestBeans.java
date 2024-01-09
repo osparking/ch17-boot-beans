@@ -15,7 +15,7 @@ public class TestBeans {
   }
 
   @Bean
-  private Country createCountry() {
+  Country createCountry() {
     var country = new Country("대한민국", "KR");
     return country;
   }
