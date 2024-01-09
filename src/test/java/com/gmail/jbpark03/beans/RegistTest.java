@@ -14,7 +14,6 @@ import com.gmail.jbpark03.beans.regist.PassengerRegistEvent;
 import com.gmail.jbpark03.beans.regist.RegistManager;
 
 @SpringBootTest
-@ImportResource("classpath:application-context.xml")
 @Import(TestBeans.class)
 class RegistTest {
 
